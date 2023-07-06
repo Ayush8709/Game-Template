@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-brand {
+    height: 41px;
+    margin-left: 36px;
+}
+
+.active {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.active:hover {
+    color: blue;
+    background-color: #599ee9;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+/* banner section */
+
+.banner_heading_one {
+    columns: #fefeff;
+}
+
+.heading1 {
+    color: #fefeff;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.heading {
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 100%;
+    color: #599ee9;
+    font-weight: 700;
+}
+
+.banner_text {
+    margin-top: 20px;
+    color: #fefeff;
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.para_button {
+    border-top: 5px solid #599ee9;
+    border-left: 13px solid #599ee9;
+    border-right: 13px solid #599ee9;
+    border-bottom: 5px solid #599ee9;
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+.para_button:hover {
+    color: #599ee9;
+}
+
+.banner_img {
+    max-width: 100%;
+}
+
+
+/* about section */
+.about_img {
+    max-width: 100%;
+}
+
+.about_heading {
+    text-align: right;
+    width: 100%;
+    color: #2d343e;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about_text {
+    text-align: right;
+    width: 100%;
+    font-size: 16px;
+    color: #2d343e;
+    white-space: 20px;
+}
+
+/* our products */
+
+.product_heading {
+    width: 100%;
+    color: #5ca0e9;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.product_heading span {
+    color: #24292f;
+}
+
+.product_text {
+    color: #363636;
+    ;
+    font-size: 16px;
+    width: 100%;
+}
+
+.product_img1 {
+    max-width: 100%;
+}
+
+.product_h {
+    color: #5ca0e9;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.product_h span {
+    color: #3a3a38;
+}
+
+.product_h2 {
+    color: #2d343e;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.product_para {
+    width: 100%;
+    text-align: center;
+    color: #363636;
+    font-size: 16px;
+}
+
+/* 3d box css */
+
+.ThreeD_box {
+    margin-top: 8%;
+    width: 100%;
+    height: auto;
+    background-image: url(./images/banner-bg.png);
+}
+
+.three_heading {
+    width: 100%;
+    color: #599ee9;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.three_h1 {
+    width: 100%;
+    font-size: 58px;
+    color: #fefeff;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.three_para {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 50px;
+    font-weight: 500;
+    color: #fefeff;
+}
+
+.three_img {
+    max-width: 100%;
+}
+
+/* testominal */
+.testominal {
+    margin-top: 9%;
+
+}
+
+.testominal_heading {
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    color: #191919;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.testoninal_para {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #191919;
+}
+
+/* form section */
+
+.form {
+    margin-top: 67px;
+}
+
+.form input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000000;
+    height: 55px;
+    font-size: 18px;
+    background: transparent;
+    border-bottom: 1px solid #888686;
+    ;
+}
+
+.form textarea {
+    width: 100%;
+    margin-top: 22px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 55px;
+    font-size: 18px;
+    background: transparent;
+    border-bottom: 1px solid #888686;
+    ;
+}
+
+.form_btn {
+    width: 160px;
+    margin-top: 42px;
+    height: 58px;
+    background-color: #ed1c24;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.form.form_btn:hover{
+    color: #191919;
+    cursor: pointer;
+}
+.form_img{
+    max-width: 100%;
+}
+
+/* last section */
+.last_section{
+ background-color: rgb(41, 40, 40);
+}
+.last_h2{
+    padding-top: 5%;
+    width: 100%;
+    font-size: 28px;
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+}
+.last_para{
+    width: 100%;
+    color: rgb(235, 235, 235);
+    font-size: 16px;
+    margin-top: 8%;
+}
+.last_para a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(235, 235, 235);
+}
+hr{
+    color: white;
+}
+.social{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.social li a{
+    margin: 19px;
+}

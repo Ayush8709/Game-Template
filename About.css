@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-brand {
+    height: 41px;
+    margin-left: 36px;
+}
+
+.active {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.active:hover {
+    color: blue;
+    background-color: #599ee9;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+/* nav background */
+ 
+.background{
+    background-image: url(/images/banner-bg.png);
+    height: 139px;
+  }
+}
